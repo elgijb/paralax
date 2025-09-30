@@ -1,8 +1,6 @@
-/* Подключение normalize и шрифта Nunito */
 @import url("normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
-/* Базовые настройки */
 html {
   font-size: 16px;
 }
@@ -134,9 +132,7 @@ body {
   pointer-events: none;
 }
 
-/* Медиа-запросы */
 
-/* 320px */
 @media (min-width: 320px) {
   ._container {
     max-width: 20rem;
@@ -162,7 +158,6 @@ body {
   }
 }
 
-/* 600px */
 @media (min-width: 600px) {
   ._container {
     max-width: 37.5rem;
@@ -188,7 +183,6 @@ body {
   }
 }
 
-/* 1024px */
 @media (min-width: 1024px) {
   ._container {
     max-width: 62.5rem;
